@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 1000px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.box h3{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color: black;
+  }
+/******img-in-box*****/
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.contactInfo ul li .icon {
+    display: flexbox;
+    width: 100%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.contactInfo ul li {
+    list-style: none;
+}
+.contactInfo {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'Century Gothic',sans-serif;
+}
+.About {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.Profile {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+} 
+.Profile ul li {
+    list-style: none;
+}
+.Education {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.Hobby {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.Hobby ul li .icon{
+    display: flexbox;
+    width: 100%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.Hobby ul li {
+    list-style: none;
+}
+@media only screen and (max-width: 1200px){
+    .box {
+    width: 100%;
+}}
